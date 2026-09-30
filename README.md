@@ -1,49 +1,28 @@
-## Joel O'Connor
+# Hi, I'm Joel
 
-Lead Software Engineer & Architect in Denver, Colorado.
+I'm a full-stack lead software engineer in Denver (open to remote). For the last six years I've been at Charter Communications building systems for Spectrum Enterprise: React and Angular frontends, NestJS and GraphQL backends, and the PostgreSQL data platforms underneath them.
 
-I'm the primary architect for an enterprise full-stack platform at Charter Communications, and I
-lead a team of around 30 engineers and data scientists across the Americas and India. Seven years
-in, most of that spent on systems where the data is messy, the scale is large, and being wrong is
-expensive.
+Most of what I've built lives in private company repositories, so this profile is a small slice of it.
 
-### What I'm actually good at
+## What I've been working on
 
-**Untangling enterprise data.** I led the build of a platform that reconciles hundreds of millions
-of rows across ~15 disconnected source systems — Salesforce, Remedy, Granite, and a spread of
-billing databases that had never agreed on what a customer was — into tens of millions of
-certified records under a single identifier, then writes that identifier back into the systems of
-record. It still runs.
+- **A legacy-data reconciliation platform.** I was one of the first engineers on it in 2020 and co-designed its hybrid matching engine, which automatically onboarded 280k enterprise clients (about 90% of them). From 2022 to 2025 I led the 30 engineers and data scientists behind it, including its re-architecture from Angular and SQL Server on EC2 to React, NestJS and PostgreSQL on Amazon RDS. That move was a direct contributor to bulk updates going from minutes to seconds, about a 60x throughput gain.
+- **The tooling people actually used.** I built the tool a 40-person operations team worked in every day, first in Angular and later in React. It took them from roughly 100 companies onboarded a week to 1,500-2,000.
+- **Federated GraphQL.** Since 2025 I've led 20 backend engineers on a Spring Boot / Netflix DGS subgraph behind the Spectrum Enterprise site.
+- **An LLM assistant.** Since 2026 I've been architecting an assistant for Spectrum Enterprise portal customers on private Claude and OpenAI deployments with RAG, measured by an automated eval suite. It's still in development.
 
-**PostgreSQL, past the point most people stop.** Stored procedures and functions, a
-database-wide normalization program, query optimization, and a custom caching layer with
-real-time and scheduled warming. A SQL Server → PostgreSQL migration and an EC2 → RDS
-re-platform that together cut processing from minutes to seconds and took about $500K a year out
-of the run cost.
+## What I work with
 
-**AI tooling that engineers actually keep using.** I built an API integration suite that verifies
-external connections in-project, hands engineers test data on demand, and gates CI/CD on
-connection health. Its LLM component checks upstream APIs weekly and repairs the integration when
-schemas or endpoints move, so nobody wakes up to a broken contract.
+**Frontend:** React, Angular, Apollo GraphQL, TypeScript\
+**Backend:** Node.js, NestJS, GraphQL, Java, Spring Boot\
+**Data:** PostgreSQL, SQL Server, query optimization, data modeling, entity resolution\
+**Cloud:** AWS (RDS, EC2, Lambda, SQS, S3), Docker, Kubernetes\
+**AI:** Claude, OpenAI, RAG, LLM evals, and Claude and Cursor in my own day-to-day development
 
-**The parts that aren't code.** Architectural governance and RFC process, technical roadmaps,
-interview rubrics, and translating what executives want into something a distributed team can
-actually build.
+## Before all that
 
-### Stack
+Before Charter I built the customer transaction flow for Ria Money Transfer's international remittance web app. Before that I spent four years in financial services, including as a Series 7 and 63 licensed stockbroker, then went through Turing School of Software & Design in 2018.
 
-TypeScript · Node.js (NestJS) · GraphQL · Angular · React · PostgreSQL · AWS (Lambda, SQS, RDS,
-Aurora Serverless) · Docker · Kubernetes · GitLab CI
+## Say hi
 
-### About this profile
-
-Most of what I've built over the last six years belongs to my employer, so it isn't here. What
-lands in this account is personal work.
-
-### Before software
-
-Four years in financial services — a FINRA Series 7 and 63 licensed stockbroker at Scottrade
-(licenses long lapsed), and retirement planning before that. It's the reason regulated,
-high-integrity data problems feel like home rather than like a chore.
-
-📍 Denver, CO · [LinkedIn](https://www.linkedin.com/in/joelboconnor)
+I'm open to full-stack, frontend or backend roles, remote or in Denver. The best way to reach me is [LinkedIn](https://www.linkedin.com/in/joelboconnor).
